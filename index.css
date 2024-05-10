@@ -98,7 +98,7 @@ main {
     font-size: 1.1rem;
 }
 
-.about-collage {
+.collage, .about-collage {
     display: block;
     position: relative;
     padding-top: 8.33333vw;
@@ -113,7 +113,6 @@ main {
     height:  58.33333vw;
     left: 41.66667vw;
     background-color: hsl(63, 100%, 83%);
-    
 }
 .about-collage .big-photo {
     display: inline-block;
@@ -199,4 +198,168 @@ main {
         font-weight: 600;
         
     }
+}
+
+.neon-bg{
+    position:absolute;
+    top:0;
+    width: 58.33333vw;
+    height: 80.33333vw;
+
+    background-color: hsl(109, 100%, 86%);
+}
+
+.left-photo-1{
+    display: block;
+    position: relative;
+    width: 33.66667vw;
+    height: 28.66667vw;
+    margin-left: 8vw;
+    margin-bottom: 6vw;
+    background-image: url('../assets/ab-eng.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat; 
+}
+
+.left-photo-2{
+    display: block;
+    position: relative;
+    width: 33.66667vw;
+    height: 28.66667vw;
+    margin-left: 8vw;
+    background-image: url('../assets/guitars.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat; 
+}
+
+.right-photo{
+    display: inline-block;
+    position:absolute;
+    width: 41.66667vw;
+    height: 41.66667vw;
+    /* vertical-align: middle; */
+    top: 18vw;;
+    margin-left: 48vw;
+    background-image: url('../assets/engineerrr.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat; 
+}
+
+.video-canvas-2 {
+    display: block;
+    width: 80vw;
+    height: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28.33333vw;
+    background-color: hsl(70, 90%, 85%);
+    background-size: cover;
+    @media (max-width: 768px) {
+        width: 98vw;
+        height: 40vw;
+        margin-bottom: 8.33333vw;
+    }
+}
+
+.video-canvas-2 .video-img-2 {
+    display: flex;
+    justify-content:center;
+    height: 50vw;
+    background-image: url('../assets/ab-eng.jpg'); 
+    background-size: cover;
+    left: 0;
+}
+
+
+.video-img-2 .video-img-inner-2 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.video-img-2 .icon-circle {
+    height: 5vw;
+    width: 5vw;
+    background-color: hsl(235, 100%, 50%);
+    border-radius: 50%;
+}
+
+.video-img-2 .play-icon-2 {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;    
+    margin: 0;
+}
+
+.video-img-2 .play-icon-2 svg{
+    /* display: inline-block;
+    position: absolute;  */
+    vertical-align: middle;
+    height: 3vw;
+    width: 3vw;
+}
+.video-caption-2 {
+    /* margin-left: 0%; */
+    font-size: 1.4vw;
+    font-weight: 500;
+    @media (max-width: 768px) {
+        font-size: 3vw;
+        font-weight: 600;
+        
+    }
+}
+
+
+.collage-3{
+    position: relative;
+    display: block;
+    padding-top: 8.33333vw;
+    padding-bottom: 8.33333vw;
+    margin-bottom: 8.33333vw;
+}
+
+.purple-bg {
+    position: absolute;
+    top: 0.5vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* vertical-align: middle; */
+    width: 61.66667vw;
+    height: 61.66667vw;
+    /* padding-top: 50vw; */
+    background-color: hsl(272, 100%, 90%);
+}
+
+
+
+.collage-3 .big-photo {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    width: 41.66667vw;
+    height: 41.66667vw;
+    margin-top: 2vw;
+    margin-left: 8vw;
+    background-image: url('../assets/engineerr.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat; 
+}
+.collage-3 .small-photo {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    width: 31.66667vw;
+    height: 21.66667vw;
+    margin-top: 2vw;
+    margin-left: 8vw;
+    background-image: url('../assets/engineer.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index: 1;
 }
