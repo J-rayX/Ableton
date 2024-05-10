@@ -67,7 +67,6 @@ nav a {
 nav li:hover a{
     color: #fff;
 }
-
 .menu-sub {
     position: absolute;
     background: #444;
@@ -75,16 +74,24 @@ nav li:hover a{
     width: 100vw;
     display: none;
 }
-
 nav li:hover .menu-sub {
     display: block;
 }
-
-.menu-sub li {
+/* .menu-sub li {
+    display: block;
+ 
+}*/
+.menu-row-1, .menu-row-2{
+    /* position: absolute; */
     display: block;
 }
-
-
+.menu-row-1 li {
+    float: left;
+}
+.menu-row-2 li{
+    /* float: left; */
+    max-width: 20vw;
+}
 
 
 
