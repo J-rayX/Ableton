@@ -95,19 +95,30 @@ nav li:hover .menu-sub {
     display: inline-block;
     padding: .75em 1.75em;
     margin-top: 1em;
+
+
 }
 .menu-row-1 ul, .menu-row-2 ul {
-    /* float: left;
-    margin-left: 0;
+    float: left;
+    margin: 0;
     padding: 0;
-    left: 0; */
+    left: -1vw;
 }
 .menu-row-1 li{
     float: left;
+    @media (max-width: 768px) {
+        float: none;
+        display: block;
+    }
 }
 .menu-row-2 li{
     float: left;
     width: 25%;
+    @media (max-width: 768px) {
+        float: none;
+        display: block;
+        width: 100%;
+    }
     /* padding: 0 0 4em 1.75em; */
 }
 .menu-row-2 span{
@@ -117,7 +128,7 @@ font-weight: 700;
     width: 90%;
 }
 
-
+ 
 header {
     display: flex;
     justify-content:center;
